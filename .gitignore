@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+# build output
+target/
+# macOS
+.DS_Store
+__MACOSX/
+# IntelliJ
+.idea/
+*.iml
+# app log file
+*.log
+EOF
